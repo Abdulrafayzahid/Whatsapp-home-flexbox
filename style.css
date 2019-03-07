@@ -1,0 +1,128 @@
+@font-face{
+    font-family: Helvetica ;
+    src:"E:\Mobile Web Developemnt\whatsapp\Helvetica.ttf" ;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Helvetica ;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+.p {
+    font-weight: 548 ;
+    font-size: 120%
+}
+.felx-space-between{
+    justify-content: space-between;
+}
+.felx-space-between1{
+    justify-content: space-between;
+    align-items: baseline;
+}
+.align-items-center{
+    align-items: center;
+    align-items: baseline;
+}
+.item-1 {
+    order: 1;
+}
+.item-2 {
+    order: 1;
+}
+.header {
+    background: #165e54;
+    color: #ffffff;
+}
+.first-row{
+    padding: 15px 10px 20px 20px;
+}
+.second-row{
+    font-size: 80%;
+    font-weight: 550;
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-bottom: 4px;
+    opacity: 0.5;
+    
+}
+.material-icons {
+    font-size: 20px !important;
+    padding-bottom: 5px;
+  }
+  .active {
+    position: relative;
+    opacity: 1 !important;
+    
+  }
+.active::after{
+    content: "";
+  border-bottom: 3px solid white;
+  opacity: 1 !important;
+  width: 100%;
+  position: absolute;
+  bottom: -2px;
+  left: 0px;
+}
+  
+.badge {
+    background: #fff;
+    border-radius: 20px;
+    color: #000;
+    font-size: 10px;
+    padding: 2px 4px;
+    margin-left: 4px;
+  }
+  .notification {
+    background: #fff;
+    border-radius: 121px;
+    width: 4px;
+    height: 4px;
+    display: inline-block;
+    margin-bottom: 7px;
+  }
+  /*flex-content-justify-space-around align-items-center */
+  .flex-containerchat{
+      margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(224, 221, 221);
+  }
+  .contact{
+      background: black;
+      border-radius: 30px;
+      padding: 20px 15px;
+      margin: 0px;
+      width: 30px;
+      height: 20px;
+  }
+  .name{
+      margin-bottom: 5px;
+      font-size: 125%;
+  }
+  .messege{
+      font-style: italic;
+  }
+  .time{
+      color: rgb(98, 228, 11);
+      font-size: 90%;
+  }
+  .time-read{
+    font-size: 90%;
+}
+  .messege-notification{
+      color: white;
+      background: rgb(98, 228, 11);
+      border-radius: 10px;
+      margin: 5px;
+      width: 16px;
+      padding: 1px;
+      text-align: center;
+      font-size: 90%;
+  }
+
